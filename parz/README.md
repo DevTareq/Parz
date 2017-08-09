@@ -13,7 +13,7 @@ Parz: Quickbox PHP Parser
 Example  
 ----------------------
 
-###Data to be parsed (data in file)
+*Data to be parsed* (data in file)
 ```sh
 !TRNS	TRNSID	TRNSTYPE	DATE	ACCNT	NAME	AMOUNT	DOCNUM	MEMO	CLEAR	TOPRINT
 !SPL	SPLID	TRNSTYPE	DATE	ACCNT	NAME	AMOUNT	DOCNUM	MEMO	CLEAR	QNTY
@@ -28,7 +28,7 @@ TRNS	WSEDEDEDEDE	BILLKMN	7/1/2000	Checking	Bayshore2	Service	50	Test Memo 2	Y	N
 ENDTRNS
 ```
 
-###Parsed data
+*Parsed data*
 
         [0] => Array
                 (
